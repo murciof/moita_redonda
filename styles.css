@@ -1,6 +1,8 @@
-/* Bootstrap adjustements */
-
-/* End of adjustements */
+@media (max-width: 767.98px) {
+    .container-fluid{
+        padding: 0;
+    }
+}
 
 @media (min-width: 768px){
     .row{
@@ -56,4 +58,8 @@
 
 .section{
 
+}
+
+.hrule{
+    margin: 1rem 0;
 }
