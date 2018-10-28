@@ -93,3 +93,7 @@
 .hrule {
     margin: 1rem 0;
 }
+
+.map-route{
+    height: 20rem;
+}
