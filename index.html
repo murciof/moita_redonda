@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="vendors/OpenLayers/ol.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="vendors/Leaflet/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="vendors/leaflet-routing-machine/leaflet-routing-machine.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -84,7 +85,8 @@
             <h2 class="d-flex">Como chegar?</h2>
             <div class="d-md-flex">
                 <div id="map" class="map-route w-100 p-2"></div>
-                <p class="w-100 p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="w-100 p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -97,22 +99,26 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+    <script src="vendors/Leaflet/leaflet.js"></script>
+    <script src="vendors/leaflet-routing-machine/leaflet-routing-machine.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="vendors/OpenLayers/ol.js"></script>
     <script>
-        /* From OpenLayers tutorial (https://openlayers.org/en/latest/doc/quickstart.html) */
-        var map = new ol.Map({
-        target: 'map',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-38.267120, -4.118835]),
-          zoom: 14
-        })
-      });
+        var map = L.map('map');
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        var control = L.Routing.control({
+            waypoints: [
+                L.latLng(-3.727594, -38.527533),
+                L.latLng(-4.114478, -38.263250)
+            ],
+            routeWhileDragging: false,
+            draggableWaypoints: false
+        }).addTo(map);
+
+        //control.hide();
     </script>
 </body>
