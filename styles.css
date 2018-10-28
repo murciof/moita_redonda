@@ -99,7 +99,9 @@
 .map-route{
     height: 30rem;
 }
-
+.map-points{
+    height: 30rem;
+}
 .image{
     height: 6rem;
 }
