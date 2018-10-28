@@ -99,3 +99,41 @@
 .map-route{
     height: 30rem;
 }
+
+.image{
+    border: 1px solid black;
+    height: 6rem;
+    width: 6rem;
+}
+
+.content-item{
+    text-align: center;
+}
+
+.item-image{
+    height: 8rem;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-image-content{
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+}
+
+.footer{
+    background-color: #885923;
+    color: white;
+    text-align: center;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image{
+    height: 6rem;
+    width: 14rem;
+    border: 1px solid white;
+}
