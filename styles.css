@@ -99,7 +99,3 @@
 .map-route{
     height: 30rem;
 }
-
-.leaflet-control-container .leaflet-routing-container-hide {
-    display: none;
-}
