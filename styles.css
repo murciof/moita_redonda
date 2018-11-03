@@ -20,6 +20,35 @@
     align-items: center;
 }
 
+.navbar{
+    height: 4rem;
+}
+
+.navbar-custom{
+    background-color: #E4D77E;
+    border-bottom: 2px solid #683431;
+    padding: 0;
+}
+
+.navbar-item{
+    display: flex;
+    background-color: #683431;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    color: #E4D77E;
+}
+
+.navbar-item-brand{
+    font-weight: bold;
+    font-size: 1.3rem !important;
+}
+
+.navbar-right-items{
+    height: inherit;
+}
+
 .wrapper{
     padding-left: 80px;
 }
@@ -108,4 +137,30 @@ footer{
 
 .footer-social-list-net{
     font-size: 1.3rem;
+}
+
+@media (min-width: 992px) {
+    .navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .sidebar{
+        display: none !important;
+    }
+    .wrapper{
+        padding-left: 0 !important;
+        margin-top: 4rem;
+    }
+    .header{
+        min-height: 50vh;
+    }
+    .header-middle-square > h1{
+        font-size: 1.75rem;
+    }
+    .header-middle-square{
+        min-height: 30vh;
+        min-width: 80vw;
+    }
 }
