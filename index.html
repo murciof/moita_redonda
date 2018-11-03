@@ -3,10 +3,9 @@
 <head>
     <title>Moita Redonda</title>
     <meta charset="utf-8">
-    <meta name="description" content="Lorem Ipsum">
+    <meta name="description" content="Site institucional da comunidade de Moita Redonda.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/Leaflet/leaflet.css">
     <link rel="stylesheet" type="text/css" href="vendors/leaflet-routing-machine/leaflet-routing-machine.css" />
     <link rel="stylesheet" type="text/css" href="vendors/OpenLayers/ol.css">
@@ -14,115 +13,78 @@
 </head>
 
 <body>
-    <div class="sidebar d-flex flex-column">
-        <div>
-            <a class="sidebar-item" href="#">MR</a>
-            <a class="sidebar-item" href="#">Other</a>
-            <a class="sidebar-item" href="#">Lorem</a>
+    <nav class="sidebar flex-column">
+        <div class="sidebar-list flex-column">
+            <a href="#" class="d-flex sidebar-item">A</a>
+            <a href="#" class="d-flex sidebar-item">B</a>
+            <a href="#" class="d-flex sidebar-item">C</a>
         </div>
-        <div class="mt-auto">
-            <a class="sidebar-item" href="#">MR</a>
-            <a class="sidebar-item" href="#">Other</a>
-            <a class="sidebar-item" href="#">Lorem</a>
+
+        <div class="mt-auto sidebar-list">
+            <a href="#" class="d-flex sidebar-item">A</a>
+            <a href="#" class="d-flex sidebar-item">B</a>
+            <a href="#" class="d-flex sidebar-item">C</a>
+        </div>
+
+    </nav>
+    <nav class="">
+
+    </nav>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="row header-middle-square">
+                    <h1>Moita Redonda</h1>
+                </div>
+            </div>
+            <div class="section">
+                <h2>A comunidade</h2>
+                <div class="row">
+                    <p class="col-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+            </div>
+            <hr />
+            <div class="section">
+                <h2>O que é produzido?</h2>
+                <div class="row">
+                    <div class="col-md-4 section-item">
+                        <div class="section-item-image">
+                            <img class="section-item-image-file"/>
+
+                        </div>
+                        <div class="section-item-header"><strong>Lorem Ipsum</strong></div>
+                        <div class="section-item-description">Lorem Ipsum Dolor Sit Amet</div>
+
+                    </div>
+                    <div class="col-md-4 section-item">
+                        <div class="section-item-image">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 section-item">
+                        <div class="section-item-image">
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
         </div>
     </div>
-    <div class="navbar fixed-top d-flex flex-row flex-nowrap navbar-custom">
-        <div>
-            <a class="navbar-item" href="#">Moita Redonda</a>
-        </div>
-        <div class="mt-auto d-flex flex-row">
-            <a class="navbar-item" href="#">A</a>
-            <a class="navbar-item" href="#">B</a>
-            <a class="navbar-item" href="#">C</a>
-        </div>
-    </div>
-    <div class="wrapper container-fluid d-flex flex-column">
-        <div class="d-flex flex-column header">
-            <div tabindex=0 class="header-content">
-                Moita Redonda
-            </div>
-            <div tabindex=0 class="header-content">
-                Moita Redonda
-            </div>
-        </div>
-        <div class="d-flex flex-column section">
-            <h2 tabindex=0 class="d-flex col-12">A comunidade</h2>
-            <div class="d-md-flex">
-                <p tabindex=0 class="col-md-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <img class="d-md-flex col-md-4 image"/>
-            </div>
-        </div>
-        <hr class="hrule d-flex flex-fill" />
-        <div class="d-flex flex-column section">
-            <h2 tabindex=0 class="d-flex col-12">O que é produzido?</h2>
-            <div class="d-md-flex flex-row">
-                <div class="d-flex flex-column content-item col-md-4">
-                    <div tabindex="0" class="item-image d-flex">
-                        <div class="item-image-content"></div>
-                    </div>
-                    <div tabindex="0" class="item-header">
-                        Item 1
-                    </div>
-                    <div tabindex="0" class="item-text">
-                        Lorem Ipsum Dolor Sit Amet!
-                    </div>
-                </div>
-                <div class="d-flex flex-column content-item col-md-4">
-                    <div tabindex="0" class="d-flex item-image">
-                        <div class="item-image-content"></div>
-                    </div>
-                    <div tabindex="0" class="item-header">
-                        Item 2
-                    </div>
-                    <div tabindex="0" class="item-text">
-                        Lorem Ipsum Dolor Sit Amet!
-                    </div>
-                </div>
-                <div class="d-flex flex-column content-item col-md-4">
-                    <div tabindex="0" class="d-flex item-image">
-                        <div class="item-image-content"></div>
-                    </div>
-                    <div tabindex="0" class="item-header">
-                        Item 3
-                    </div>
-                    <div tabindex="0" class="item-text">
-                        Lorem Ipsum Dolor Sit Amet!
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="hrule d-flex flex-fill" />
-        <div class="d-flex flex-column section">
-            <h2 tabindex=0 class="d-flex col-12">Como chegar?</h2>
-            <div class="d-md-flex">
-                <div class="d-flex col-md-7">
-                        <div id="map-route" class="col-md-12 map-route"></div>
-                </div>
-                
-                <p tabindex=0 class="col-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor
-                    incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="d-md-flex">
-                <div id="map-points" class="col-12 map-points"></div>
-            </div>
-        </div>
-        <footer class="d-flex flex-column footer">
-            <img class="footer-image"/>
-            <p tabindex="0">Lorem Ipsum</p>
-            <p tabindex="0">Número do telefone</p>
-        </footer>
-    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -131,8 +93,7 @@
     <script src="vendors/Leaflet/leaflet.js"></script>
     <script src="vendors/leaflet-routing-machine/leaflet-routing-machine.js"></script>
     <script src="vendors/OpenLayers/ol.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         var map_route = L.map('map-route');
 
@@ -154,17 +115,16 @@
     <script>
         /* From OpenLayers Guide (https://openlayers.org/en/latest/doc/quickstart.html) */
         var map_points = new ol.Map({
-        target: 'map-points',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-38.267807, -4.118365]),
-          zoom: 15
-        })
-      });
-
+            target: 'map-points',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([-38.267807, -4.118365]),
+                zoom: 15
+            })
+        });
     </script>
 </body>
