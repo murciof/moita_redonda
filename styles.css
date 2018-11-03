@@ -12,7 +12,7 @@
 }
 
 .sidebar-item{
-    height: 2.5rem;
+    height: 4rem;
     display: flex;
     background-color: #683431;
     color: #E4D77E;
@@ -49,15 +49,38 @@
 }
 
 .section-item-image{
-    height: 100px;
+    height: 160px;
     border: 1px solid black;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-item-image-file{
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
 
 }
 
 .section-item-header{
     font-size: 1.2rem;
+}
+
+.side-section{
+    justify-content: center;
+}
+
+.map-route{
+    height: 30rem;
+}
+
+.map-points{
+    height: 30rem;
+}
+
+footer{
+    background-color: #885923;
+    color: white;
+    text-align: center;
 }
