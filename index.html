@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<html lang="pt">
 
 <head>
     <title>Moita Redonda</title>
@@ -11,34 +12,37 @@
     <link rel="stylesheet" type="text/css" href="vendors/OpenLayers/ol.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
     <nav class="sidebar flex-column">
         <div class="sidebar-list flex-column">
-            <a href="#" class="d-flex sidebar-item">A</a>
-            <a href="#" class="d-flex sidebar-item">B</a>
-            <a href="#" class="d-flex sidebar-item">C</a>
+            <a href="#" class="d-flex sidebar-item sidebar-item-brand">MR</a>
+            <a href="#section-community" class="d-flex sidebar-item">COM</a>
+            <a href="#section-production" class="d-flex sidebar-item">PROD</a>
+            <a href="#section-route" class="d-flex sidebar-item">ROUTE</a>
+            <a href="#section-poi" class="d-flex sidebar-item">POI</a>
         </div>
 
         <div class="mt-auto sidebar-list">
-            <a href="#" class="d-flex sidebar-item">A</a>
-            <a href="#" class="d-flex sidebar-item">B</a>
-            <a href="#" class="d-flex sidebar-item">C</a>
+            <a href="#" class="d-flex sidebar-item">LANG</a>
         </div>
 
     </nav>
     <nav class="navbar fixed-top navbar-custom">
         <a class="navbar-item navbar-item-brand" href="#">Moita Redonda</a>
         <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>-->
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>-->
         <div class="ml-auto d-flex flex-row navbar-right-items" id="navbarSupportedContent">
-            <a class="navbar-item" href="#">A</a>
-            <a class="navbar-item" href="#">B</a>
-            <a class="navbar-item" href="#">C</a>
+            <a class="navbar-item" href="#section-community">COM</a>
+            <a class="navbar-item" href="#section-production">PROD</a>
+            <a class="navbar-item" href="#section-route">ROUTE</a>
+            <a class="navbar-item" href="#section-poi">POI</a>
+            <a class="navbar-item" href="#">LANG</a>
         </div>
     </nav>
     <div class="wrapper">
@@ -48,7 +52,7 @@
                     <h1>Moita Redonda</h1>
                 </div>
             </div>
-            <div class="section">
+            <div id="section-community" class="section">
                 <h2>A comunidade</h2>
                 <div class="row">
                     <p class="col-12">
@@ -64,7 +68,7 @@
 
             </div>
             <hr />
-            <div class="section">
+            <div id="section-production" class="section">
                 <h2>O que é produzido?</h2>
                 <div class="row">
                     <div class="col-md-4 section-item">
@@ -97,7 +101,7 @@
                 </div>
             </div>
             <hr />
-            <div class="section">
+            <div id="section-route" class="section">
                 <div class="row">
                     <div class="col-md-5 d-flex flex-column side-section">
                         <h2 class="">
@@ -124,7 +128,7 @@
                 </div>
             </div>
             <hr />
-            <div class="section">
+            <div id="section-poi" class="section">
                 <div class="row">
                     <div class="col-md-5 d-flex flex-column side-section">
                         <h2 class="">
@@ -206,3 +210,5 @@
         });
     </script>
 </body>
+
+</html>
