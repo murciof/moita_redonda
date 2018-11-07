@@ -61,7 +61,7 @@ nav>div>a:hover {
     padding: 0;
 }
 
-.navbar-items{
+.navbar-items {
     height: inherit;
 }
 
@@ -84,21 +84,28 @@ nav>div>a:hover {
     height: inherit;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     height: inherit;
     background-color: #683431;
-    border-radius: unset; 
+    border-radius: unset;
     padding: 1rem;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-color: #E4D77E;
     margin: .2rem 0;
 }
 
-.navbar-toggler > span{
+.navbar-toggler>span {
     color: #E4D77E;
 }
+
+@media (min-width: 576px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+}
+
 
 .wrapper {
     padding-left: 80px;
@@ -250,6 +257,7 @@ footer {
     -webkit-animation-delay: 400ms;
     animation-delay: 400ms;
 }
+
 .animated.delay-500ms {
     -webkit-animation-delay: 500ms;
     animation-delay: 500ms;
