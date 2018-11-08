@@ -236,6 +236,28 @@ footer {
     }
 }
 
+.lang-panel{
+    background-color: rgb(238, 235, 220);
+}
+
+.lang-panel-header{
+    background-color: #6B3D2E;
+    color: #E4D77E;
+}
+
+.lang-panel-header > button{
+    color: #E4D77E;
+}
+
+.flag-icon{
+    width: 8rem;
+    height: 8rem;
+}
+
+.flag-panel{
+    align-items: center;
+}
+
 /* More animated delay classes */
 
 .animated.delay-100ms {

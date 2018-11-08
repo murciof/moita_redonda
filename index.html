@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="vendors/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendors/flag-icon-css/flag-icon.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -27,7 +28,7 @@
         </div>
 
         <div class="mt-auto sidebar-list">
-            <a href="#" class="d-flex sidebar-item animated fadeInLeft delay-500ms">LANG</a>
+            <a href="#languageModal" class="d-flex sidebar-item animated fadeInLeft delay-500ms" data-toggle="modal" data-target="#languageModal">LANG</a>
         </div>
 
     </nav>
@@ -37,8 +38,9 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>-->
-        <button class="navbar-toggler animated fadeInDown d-flex flex-column" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler animated fadeInDown d-flex flex-column" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon animated fadeInLeft delay-300ms"></span>
             <span class="navbar-toggler-icon animated fadeInLeft delay-400ms"></span>
             <span class="navbar-toggler-icon animated fadeInLeft delay-500ms"></span>
@@ -48,10 +50,36 @@
             <a class="navbar-item animated fadeInDown delay-200ms" href="#section-production">PROD</a>
             <a class="navbar-item animated fadeInDown delay-300ms" href="#section-route">ROUTE</a>
             <a class="navbar-item animated fadeInDown delay-400ms" href="#section-poi">POI</a>
-            <a class="navbar-item animated fadeInDown delay-500ms" href="#">LANG</a>
+            <a class="navbar-item animated fadeInDown delay-500ms" href="#languageModal" data-toggle="modal" data-target="#languageModal">LANG</a>
         </div>
 
     </nav>
+    <div class="modal fade" id="languageModal" tabindex="-1" role="dialog" aria-labelledby="languageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content lang-panel">
+                <div class="modal-header lang-panel-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Escolha o seu idioma</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6 d-flex justify-content-center flex-column flag-panel">
+                                <span class="flag-icon flag-icon-br"></span>
+                                <p style="text-align: center">Português</p>
+
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-center flex-column flag-panel">
+                                <span class="flag-icon flag-icon-us"></span>
+                                <p style="text-align: center">Inglês</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row header">
