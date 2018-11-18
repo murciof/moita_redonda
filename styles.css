@@ -299,6 +299,12 @@ footer {
         min-width: 20vw;
         margin: 0;
     }
+    .map-route{
+        margin: 0 1.2rem;
+    }
+    .map-points{
+        margin: 0 1.2rem;
+    }
 }
 
 .lang-panel{
@@ -348,4 +354,8 @@ footer {
 .animated.delay-500ms {
     -webkit-animation-delay: 500ms;
     animation-delay: 500ms;
+}
+
+.leaflet-routing-container{
+    display: none;
 }
