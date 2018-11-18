@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Arimo|Dosis');
+
 a {
     -webkit-transition: 70ms linear;
     -moz-transition: 70ms linear;
@@ -22,6 +24,22 @@ nav>div>a:hover {
     -o-transition: 70ms linear;
     transition: 70ms linear;
     text-decoration: none;
+}
+
+body{
+    background-color: #FFF4E8;
+    color: #473826;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    margin-bottom: 1.4rem;
+    color: #683431;
 }
 
 .sidebar {
@@ -52,7 +70,7 @@ nav>div>a:hover {
 }
 
 .sidebar-icon{
-    height: 1.3rem;
+    height: 2rem;
 }
 
 .navbar {
@@ -132,6 +150,8 @@ nav>div>a:hover {
     align-items: center;
     justify-content: center;
     color: white;
+    background-image: url('img/pattern.svg');
+    background-attachment: fixed;
 }
 
 .header-middle-square {
@@ -143,8 +163,16 @@ nav>div>a:hover {
     border: 2px dashed #E4D77E;
 }
 
+.header-middle-square-image{
+    height: 12rem;
+}
+.header-middle-square-text{
+    margin-top: 2rem;
+    color: #E4D77E;
+}
+
 .section {
-    background-color: white;
+    background-color: #FFF4E8;
     padding: 1rem 0;
 }
 
@@ -176,6 +204,14 @@ nav>div>a:hover {
 
 .section-item-header {
     font-size: 1.2rem;
+    font-family: 'Dosis', sans-serif;
+    margin: .2rem 0;
+}
+
+.section-indicator{
+    position: relative;
+    visibility: hidden;
+    top: -4rem;
 }
 
 .side-section {
@@ -241,8 +277,12 @@ footer {
         min-height: 50vh;
     }
 
-    .header-middle-square>h1 {
+    .header-middle-square-text {
         font-size: 1.75rem;
+    }
+
+    .header-middle-square-image{
+        height: 6rem;
     }
 
     .header-middle-square {
