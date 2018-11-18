@@ -161,6 +161,8 @@ h2{
     justify-content: center;
     align-items: center;
     border: 2px dashed #E4D77E;
+    background-image: url('img/pattern_secondary.svg');
+    background-attachment: fixed;
 }
 
 .header-middle-square-image{
@@ -188,17 +190,18 @@ h2{
 }
 
 .section-item-image {
-    height: 160px;
-    border: 1px solid black;
+    /*height: 160px;
+    border: 1px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .section-item-image-file {
-    border: 1px solid black;
-    height: 90px;
-    width: 90px;
+    /*border: 1px solid black;*/
+    height: 6.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
 }
 
