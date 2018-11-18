@@ -211,7 +211,7 @@ h2{
 .section-indicator{
     position: relative;
     visibility: hidden;
-    top: -4rem;
+    top: -8rem;
 }
 
 .side-section {
@@ -288,6 +288,16 @@ footer {
     .header-middle-square {
         min-height: 30vh;
         min-width: 80vw;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-items{
+        display: flex;
+    }
+    .navbar-item{
+        min-width: 20vw;
+        margin: 0;
     }
 }
 
