@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Arimo|Dosis');
 
+
+
 a {
     -webkit-transition: 70ms linear;
     -moz-transition: 70ms linear;
     -o-transition: 70ms linear;
     transition: 70ms linear;
+}
+
+p{
+    margin-bottom: .65rem;
 }
 
 a:hover {
@@ -15,10 +21,14 @@ a:hover {
     text-decoration: none;
 }
 
+hr{
+    margin: 0;
+}
+
 nav>a:hover,
 nav>div>a:hover {
-    background-color: #C4622D;
-    color: #E4D77E;
+    background-color: #804e4e;
+    color: #fdd692;
     -webkit-transition: 70ms linear;
     -moz-transition: 70ms linear;
     -o-transition: 70ms linear;
@@ -27,8 +37,8 @@ nav>div>a:hover {
 }
 
 body{
-    background-color: #FFF4E8;
-    color: #473826;
+    background-color: #fff2db;
+    color: #685e4d;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -39,13 +49,13 @@ h1,h2,h3,h4,h5{
 
 h2{
     margin-bottom: 1.4rem;
-    color: #683431;
+    color: #603a3a;
 }
 
 .sidebar {
     display: flex;
-    background-color: #E4D77E;
-    width: 4.5rem;
+    background-color: #fdd692;
+    width: 5.5rem;
     min-height: 100vh;
     z-index: 999;
     position: fixed;
@@ -56,10 +66,10 @@ h2{
 }
 
 .sidebar-item {
-    height: 4.5rem;
+    height: 5.5rem;
     display: flex;
-    background-color: #683431;
-    color: #E4D77E;
+    background-color: #603a3a;
+    color: #fdd692;
     justify-content: center;
     align-items: center;
 }
@@ -70,7 +80,7 @@ h2{
 }
 
 .sidebar-icon{
-    height: 2rem;
+    height: 2.2rem;
 }
 
 .navbar {
@@ -78,8 +88,8 @@ h2{
 }
 
 .navbar-custom {
-    background-color: #E4D77E;
-    /*border-bottom: 2px solid #683431;*/
+    background-color: #fdd692;
+    /*border-bottom: 2px solid #603a3a;*/
     padding: 0;
 }
 
@@ -89,12 +99,12 @@ h2{
 
 .navbar-item {
     display: flex;
-    background-color: #683431;
+    background-color: #603a3a;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 4rem;
-    color: #E4D77E;
+    color: #fdd692;
 }
 
 .navbar-item-brand {
@@ -102,11 +112,11 @@ h2{
     font-size: 1.3rem !important;
     padding: 0 1rem;
     display: flex;
-    background-color: #683431;
+    background-color: #603a3a;
     justify-content: center;
     align-items: center;
     height: 100%;
-    color: #E4D77E;
+    color: #fdd692;
 }
 
 .navbar-icon{
@@ -119,18 +129,18 @@ h2{
 
 .navbar-toggler {
     height: inherit;
-    background-color: #683431;
+    background-color: #603a3a;
     border-radius: unset;
     padding: 1rem;
 }
 
 .navbar-toggler-icon {
-    background-color: #E4D77E;
+    background-color: #fdd692;
     margin: .2rem 0;
 }
 
 .navbar-toggler>span {
-    color: #E4D77E;
+    color: #fdd692;
 }
 
 @media (min-width: 576px) {
@@ -141,11 +151,11 @@ h2{
 
 
 .wrapper {
-    padding-left: 4.5rem;
+    padding-left: 5.5rem;
 }
 
 .header {
-    background-color: #885923;
+    background-color: #cc7847;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -155,12 +165,12 @@ h2{
 }
 
 .header-middle-square {
-    background-color: #6B3D2E;
+    background-color: #603a3a;
     min-width: 80vw;
     min-height: 80vh;
     justify-content: center;
     align-items: center;
-    border: 2px dashed #E4D77E;
+    border: 2px dashed #fdd692;
     background-image: url('img/pattern_secondary.svg');
     background-attachment: fixed;
 }
@@ -170,12 +180,12 @@ h2{
 }
 .header-middle-square-text{
     margin-top: 2rem;
-    color: #E4D77E;
+    color: #fdd692;
 }
 
 .section {
-    background-color: #FFF4E8;
-    padding: 1rem 0;
+    background-color: #fff2db;
+    padding: 1.2rem 0;
 }
 
 /*.section-indicator{
@@ -230,7 +240,7 @@ h2{
 }
 
 footer {
-    background-color: #885923;
+    background-color: #603a3a;
     color: white;
     text-align: center;
 }
@@ -263,6 +273,9 @@ footer {
 @media (min-width: 992px) {
     .navbar {
         display: none;
+    }
+    .section{
+        margin: 0 .5rem;
     }
 }
 
@@ -315,12 +328,12 @@ footer {
 }
 
 .lang-panel-header{
-    background-color: #6B3D2E;
-    color: #E4D77E;
+    background-color: #603a3a;
+    color: #fdd692;
 }
 
 .lang-panel-header > button{
-    color: #E4D77E;
+    color: #fdd692;
 }
 
 .flag-icon{
