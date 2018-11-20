@@ -206,9 +206,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="779.42965"
-     inkscape:cy="397.35263"
+     inkscape:zoom="2.8"
+     inkscape:cx="578.94736"
+     inkscape:cy="1191.5571"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -636,6 +636,38 @@
          cy="293.806"
          rx="2.4194028"
          ry="2.4072213" />
+    </g>
+    <g
+       id="g973">
+      <g
+         aria-label="A"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.99145508px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         id="text898">
+        <path
+           d="m 154.75249,90.888296 h -3.58714 l -0.7505,2.156099 h -1.67273 l 3.4981,-9.260417 h 1.44376 l 3.50446,9.260417 h -1.67909 z m -3.13557,-1.297476 h 2.684 l -1.342,-3.841547 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.02564144px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';stroke-width:0.26458332"
+           id="path957"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         aria-label="Ж"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:13.02564049px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         id="text902">
+        <path
+           d="m 154.83835,76.180584 h -1.0367 v 3.99419 h -1.60277 v -3.99419 h -1.08123 l -2.27058,3.99419 h -2.00346 l 2.98293,-4.929136 -2.78576,-4.33128 h 1.94621 l 2.21334,3.866987 h 0.99855 v -3.866987 h 1.60277 v 3.866987 h 0.95402 l 2.19426,-3.866987 h 1.93986 l -2.76032,4.318559 2.95748,4.941857 h -1.99709 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';stroke-width:0.26458332"
+           id="path960"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="text904"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.39517593px;line-height:1.25;font-family:'Noto Sans CJK TC';-inkscape-font-specification:'Noto Sans CJK TC Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         aria-label="好">
+        <path
+           id="path954"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Noto Sans CJK TC';-inkscape-font-specification:'Noto Sans CJK TC Medium';stroke-width:0.26458332"
+           d="m 136.08331,79.568188 c -0.0432,1.295566 -0.21593,2.792664 -0.87811,4.289763 -0.47504,-0.403065 -0.96448,-0.80613 -1.42512,-1.16601 0.21593,-0.892501 0.44625,-1.928953 0.64778,-3.008592 z m 2.04411,-0.129557 0.0144,-1.194799 -0.80613,0.04319 v -0.921291 h -1.23799 v 0.993267 l -1.43952,0.07198 c 0.15835,-1.036452 0.3023,-2.05851 0.40307,-2.994196 l -1.30996,-0.07198 c -0.0864,0.964476 -0.23033,2.044115 -0.38867,3.123753 l -1.36754,0.05758 0.14395,1.28117 0.99326,-0.05758 c -0.24471,1.25238 -0.51822,2.461575 -0.79173,3.354076 0.69097,0.575807 1.4827,1.237985 2.24565,1.928953 -0.5902,0.921291 -1.41073,1.813792 -2.54795,2.591132 0.3023,0.215927 0.74855,0.662178 0.95008,0.950081 1.10843,-0.806129 1.94335,-1.69863 2.57674,-2.634317 0.61899,0.590202 1.16601,1.166009 1.54028,1.64105 l 0.8925,-1.122823 c -0.41746,-0.489436 -1.05084,-1.108429 -1.75621,-1.741817 0.83492,-1.799397 1.05085,-3.685165 1.07964,-5.239844 z m 7.12561,1.871373 h -3.03738 v -1.25238 c 1.02206,-0.892501 2.00093,-2.116091 2.6919,-3.166939 l -0.92129,-0.647783 -0.3023,0.07198 h -5.41259 v 1.22359 h 4.4913 c -0.53262,0.791735 -1.23799,1.655446 -1.91456,2.245648 v 1.525888 h -3.18133 v 1.281171 h 3.18133 v 4.433714 c 0,0.215928 -0.0864,0.273509 -0.31669,0.273509 -0.21593,0.01439 -1.02206,0.01439 -1.8138,-0.0144 0.18714,0.35988 0.38867,0.906896 0.46065,1.281171 1.12282,0 1.85698,-0.02879 2.36081,-0.230323 0.51822,-0.201532 0.67657,-0.561412 0.67657,-1.295566 v -4.448109 h 3.03738 z" />
+      </g>
     </g>
   </g>
 </svg>

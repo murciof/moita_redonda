@@ -10,22 +10,22 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g transform="translate(-140.65 -133.05)">
-  <g transform="translate(30.474 73.42)">
-   <g transform="matrix(.61447 0 0 .61447 42.072 16.313)" fill="#e4d77e">
+ <g transform="translate(-140.65 -133.05)" fill="#fdd692">
+  <g transform="translate(30.474 73.42)" fill="#fdd692">
+   <g transform="matrix(.61447 0 0 .61447 42.072 16.313)">
     <path transform="scale(.26458)" d="m448.57 266.45a29.643 29.643 0 0 0-29.645 29.645 29.643 29.643 0 0 0 29.645 29.643 29.643 29.643 0 0 0 29.643-29.643 29.643 29.643 0 0 0-29.643-29.645zm0 12.17a17.475 17.475 0 0 1 17.475 17.475 17.475 17.475 0 0 1-17.475 17.475 17.475 17.475 0 0 1-17.475-17.475 17.475 17.475 0 0 1 17.475-17.475z"/>
     <circle cx="118.68" cy="78.342" r="2.619"/>
    </g>
-   <g transform="matrix(.61447 0 0 .61447 59.553 23.494)" fill="#e4d77e">
+   <g transform="matrix(.61447 0 0 .61447 59.553 23.494)">
     <path transform="scale(.26458)" d="m448.57 266.45a29.643 29.643 0 0 0-29.645 29.645 29.643 29.643 0 0 0 29.645 29.643 29.643 29.643 0 0 0 29.643-29.643 29.643 29.643 0 0 0-29.643-29.645zm0 12.17a17.475 17.475 0 0 1 17.475 17.475 17.475 17.475 0 0 1-17.475 17.475 17.475 17.475 0 0 1-17.475-17.475 17.475 17.475 0 0 1 17.475-17.475z"/>
     <circle cx="118.68" cy="78.342" r="2.619"/>
    </g>
-   <path d="m119.46 66.283 8.5656 3.5188" fill="none" stroke="#e4d77e" stroke-linecap="round" stroke-width="2.1167"/>
-   <g transform="matrix(.61447 0 0 .61447 46.935 32.188)" fill="#e4d77e">
+   <path d="m119.45 65.219a1.0585 1.0585 0 0 0-0.39258 2.043l8.5645 3.5195a1.0589 1.0589 0 1 0 0.80468-1.959l-8.5664-3.5176a1.0585 1.0585 0 0 0-0.41016-0.08594z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   <g transform="matrix(.61447 0 0 .61447 46.935 32.188)">
     <path transform="scale(.26458)" d="m448.57 266.45a29.643 29.643 0 0 0-29.645 29.645 29.643 29.643 0 0 0 29.645 29.643 29.643 29.643 0 0 0 29.643-29.643 29.643 29.643 0 0 0-29.643-29.645zm0 12.17a17.475 17.475 0 0 1 17.475 17.475 17.475 17.475 0 0 1-17.475 17.475 17.475 17.475 0 0 1-17.475-17.475 17.475 17.475 0 0 1 17.475-17.475z"/>
     <circle cx="118.68" cy="78.342" r="2.619"/>
    </g>
-   <path d="m128.51 74.367-4.6809 3.2249" fill="none" stroke="#e4d77e" stroke-linecap="round" stroke-width="2.1167"/>
+   <path d="m128.47 73.301a1.0585 1.0585 0 0 0-0.5625 0.19531l-4.6816 3.2246a1.0585 1.0585 0 1 0 1.2012 1.7422l4.6816-3.2246a1.0585 1.0585 0 0 0-0.63867-1.9375z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
   </g>
  </g>
 </svg>

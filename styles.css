@@ -241,7 +241,7 @@ h2{
 
 footer {
     background-color: #603a3a;
-    color: white;
+    color: #fdd692;
     text-align: center;
 }
 
@@ -312,7 +312,7 @@ footer {
         display: flex;
     }
     .navbar-item{
-        min-width: 20vw;
+        min-width: 20%;
         margin: 0;
     }
     .map-route{
@@ -320,6 +320,12 @@ footer {
     }
     .map-points{
         margin: 0 1.2rem;
+    }
+    .header-middle-square-image{
+        height: 3.5rem;
+    }
+    .header-middle-square-text {
+        font-size: 1.5rem;
     }
 }
 
