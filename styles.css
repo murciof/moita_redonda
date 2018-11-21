@@ -314,7 +314,7 @@ footer {
         display: flex;
     }
     .navbar-item{
-        min-width: 20%;
+        min-width: 25%;
         margin: 0;
     }
     .map-route{
