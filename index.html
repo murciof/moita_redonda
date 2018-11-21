@@ -226,6 +226,9 @@
     <script src="vendors/Leaflet/leaflet.js"></script>
     <script src="vendors/leaflet-routing-machine/leaflet-routing-machine.js"></script>
     <script src="vendors/OpenLayers/ol.js"></script>
+    <script src="vendors/OpenLayers/renderer/vector.js"></script>
+    <script src="vendors/OpenLayers/renderer/canvas/VectorLayer.js"></script>
+    <script src="vendors/OpenLayers/format/KML.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         var map_route = L.map('map-route');
@@ -246,13 +249,21 @@
         control.hide();
     </script>
     <script>
+        /*import KML from 'vendors/OpenLayers/format/KML.js';*/
         /* From OpenLayers Guide (https://openlayers.org/en/latest/doc/quickstart.html) */
+        var vector = new VectorLayer({
+            source: new VectorSource({
+                url: 'data/Moita.kml',
+                format: new KML()
+            })
+        });
+
         var map_points = new ol.Map({
             target: 'map-points',
             layers: [
                 new ol.layer.Tile({
                     source: new ol.source.OSM()
-                })
+                }), vector
             ],
             view: new ol.View({
                 center: ol.proj.fromLonLat([-38.267807, -4.118365]),
