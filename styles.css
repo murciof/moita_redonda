@@ -170,7 +170,7 @@ h2{
     min-height: 80vh;
     justify-content: center;
     align-items: center;
-    border: 2px dashed #fdd692;
+    /*border: 2px dashed #fdd692;*/
     background-image: url('img/pattern_secondary.svg');
     background-attachment: fixed;
 }
@@ -233,10 +233,12 @@ h2{
 
 .map-route {
     height: 30rem;
+    border: 2px #685e4d solid;
 }
 
 .map-points {
     height: 30rem;
+    border: 2px #685e4d solid;
 }
 
 footer {
